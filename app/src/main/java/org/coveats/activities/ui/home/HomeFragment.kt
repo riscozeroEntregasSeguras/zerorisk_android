@@ -50,6 +50,7 @@ class HomeFragment : Fragment() {
                     Toast.makeText(this.context, "cancel", Toast.LENGTH_SHORT).show()
                 }
             }
+            
             builder?.setMessage(R.string.want_to_help_warning)
                 ?.setTitle(R.string.warning)
             val dialog: AlertDialog? = builder?.create()
