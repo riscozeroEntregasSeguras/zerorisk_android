@@ -2,6 +2,7 @@ package org.coveats.activities.ui.home
 
 import android.app.AlertDialog
 import android.content.DialogInterface
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.view.LayoutInflater
@@ -14,6 +15,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import org.coveats.R
+import org.coveats.activities.RequestListActivity
 
 class HomeFragment : Fragment() {
 
@@ -45,12 +47,13 @@ class HomeFragment : Fragment() {
             builder?.apply {
                 setPositiveButton(R.string.confirm) { _, _ ->
                     Toast.makeText(this.context, "confirm", Toast.LENGTH_SHORT).show()
+                    val mainIntent: Intent = Intent(this.context, RequestListActivity::class.java)
+                    startActivity(mainIntent)
                 }
                 setNegativeButton(R.string.cancel) { _, _ ->
                     Toast.makeText(this.context, "cancel", Toast.LENGTH_SHORT).show()
                 }
             }
-            
             builder?.setMessage(R.string.want_to_help_warning)
                 ?.setTitle(R.string.warning)
             val dialog: AlertDialog? = builder?.create()

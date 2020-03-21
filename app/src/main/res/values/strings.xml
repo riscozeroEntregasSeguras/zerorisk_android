@@ -36,4 +36,7 @@
     <string name="hint_user_country">Country</string>
     <string name="hint_user_id_card">ID card</string>
     <string name="hint_user_nif">NIF</string>
+    <string name="title_activity_request_list">RequestListActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
 </resources>
