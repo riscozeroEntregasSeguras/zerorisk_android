@@ -3,4 +3,9 @@
     <string name="app_name">ZeroRisco</string>
     <string name="button_need_help">Preciso ajuda</string>
     <string name="button_want_to_help">Quero ajudar</string>
+    <string name="title_activity_register">Registo</string>
+    <string name="hint_user_nif">NIF</string>
+    <string name="hint_user_id_card">Cartao de cidadao</string>
+    <string name="hint_user_country">Pais</string>
+    <string name="hint_user_name">Nome</string>
 </resources>
