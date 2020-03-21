@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ZeroRisco</string>
+    <string name="button_need_help">Preciso ajuda</string>
+    <string name="button_want_to_help">Quero ajudar</string>
+</resources>

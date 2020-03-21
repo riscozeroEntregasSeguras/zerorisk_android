@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Coveats</string>
+    <string name="app_name">ZeroRisk</string>
     <string name="title_activity_main">MainActivity</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -103,4 +103,6 @@
         "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
         "when a user tries to pick up one of cards.\n\n"
     </string>
+    <string name="button_need_help">I need help</string>
+    <string name="button_want_to_help">I want to help</string>
 </resources>
