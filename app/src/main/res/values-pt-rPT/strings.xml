@@ -3,4 +3,24 @@
     <string name="app_name">ZeroRisco</string>
     <string name="button_need_help">Preciso ajuda</string>
     <string name="button_want_to_help">Quero ajudar</string>
+    <string name="cancel">Não aceito</string>
+    <string name="confirm">Aceito</string>
+    <string name="want_to_help_warning">
+        "Declaro que não tenho qualquer sintoma relacionado com o COVID-19, especialmente:\n"
+        "- febre\n"
+        "- tosse\n"
+        "- nariz ranhoso\n"
+        "- dor de garganta\n"
+        "- dificuldade em respirar\n\n"
+
+        "Se tiver dúvidas nos sintomas por favor ligue para a saúde 24:\n"
+        "808 24 24 24\n"
+        "atendimento@sns24.gov.pt"
+    </string>
+    <string name="warning">Aviso!</string>
+    <string name="title_activity_register">Registo</string>
+    <string name="hint_user_nif">NIF</string>
+    <string name="hint_user_id_card">Cartao de cidadao</string>
+    <string name="hint_user_country">Pais</string>
+    <string name="hint_user_name">Nome</string>
 </resources>
